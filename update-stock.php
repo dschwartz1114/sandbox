@@ -1,3 +1,5 @@
+<?php
+
 // Clear Stock
 function clear_current_stock(){ 
 // Declare the $wpdb var
@@ -12,3 +14,6 @@ function clear_current_stock(){
          echo 'true';
     }
 }
+?>
+
+<?php clear_current_stock(); ?>
